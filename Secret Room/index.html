@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Secret room</title>
+	<link rel="stylesheet" type="text/css" href="src/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="src/css/hover.css">
+	<link rel="shortcut icon" type="image" href="src/img/favico.png">
+	<style> .particles {
+    background: black;
+    width: 100%;
+    height:100%;
+    z-index: 1;
+    position:fixed; 
+    top:0;
+    left:0;
+ }
+
+.section {
+	position: relative;
+	z-index: 2;
+}
+</style>
+
+</head>
+<body>
+	<div id="particles" class="particles"></div>
+<div class="section">
+
+		<div id="page-wraper">
+	 <div class="container"> 
+	 	<div class="row">
+	 		<div class="col-lg-3">
+	 		 <img src="src/img/logo2.png" class="logo" alt="Secret room">
+	 		  </div>
+	 	</div>
+      <div class="row">
+      	<div class="col-lg-8 offset-lg-2"> 
+         <h1 class="header-text">   
+         <strong> Вставьте пароль, логин, секротное сообщение или частную ссылку ниже.</strong>
+         <p class="lead">Не пропускайте важную и ценную информацию в беседы и эл-почту.</p>
+         </h1>
+      	</div>
+      </div>
+
+      <div class="row">
+      	<div class="col-lg-8 offset-lg-2">
+      	 <div class="form1">
+      	 		<input type="text" name="name" placeholder="Напиши свой сeкрет сюда..." autocomplete="off" required/> 	
+      	  <label for="name" class="label-name">
+            <span class="content-name"></span>
+          </label>
+      	 </div>
+      	</div>
+      </div>
+
+      	 <div class="row">
+      	 	<div class="col-lg-8 offset-lg-2">
+      	 <div class="form2">
+      	
+      	 	<form action="#">
+            <p class="text1">Кодовая фраза:</p>
+            <p class="text2">Lifetime:</p>
+      	 		<p class="title">Настройки приватности</p>
+      	 		<input type="text" class="form-control input-lg form-input2" placeholder="Кодовое слово или фраза"> 
+      	 		<select class="btn" name="btn" id="selectID">
+      	 			<option value="">7 дней</option>
+      	 			<option value="">1 день</option>
+      	 			<option value="">12 часов</option>
+      	 			<option value="">3 часа</option>
+      	 			<option value="">1 час</option>
+              <option value="">30 минут</option>
+              <option value="">15 минут</option>
+      	 		</select>      
+        </form>
+       </div>
+       
+      </div>
+
+     </div>
+     <div class="row">
+     	<div class="col-lg-8 offset-lg-2">
+     		<button class="button hvr-grow shadow" class="text">Создать ссылку на секрет </button>
+     		<button class="button hvr-grow shadow" class="text">Или сгенерировать одноразовый пароль </button> 
+     	</div>
+     </div>
+	</div> 
+   </div>
+   </div>
+   
+
+  <script src="src/libs/particles/particles.js"></script>
+   <script src="src/js/main.js"></script>
+
+</body>
+</html>
+
